@@ -1,0 +1,28 @@
+# Site settings
+name: 看门猫的个人网站
+email: 810549046@qq.com
+author: Chen WeiTong
+url: https://github.com/watchcat2k
+#resume_site个人简历网站
+resume_site: https://github.com/watchcat2k
+github: https://github.com/watchcat2k
+baseurl: ""
+description: 个人学习笔记
+meta_description: 陈伟桐;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: 看门猫的个人网站
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: watchcat2k
+
+# Build settings
+markdown: kramdown
+                
+baidu_analysis: 89fb9ec12ceb80a8de46179c52102423
+
+
