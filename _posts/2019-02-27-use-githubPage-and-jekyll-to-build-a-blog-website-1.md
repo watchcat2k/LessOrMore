@@ -1,9 +1,9 @@
 ﻿---
 layout: post
-title:  利用github page和jekyll搭建个人博客网站 
-date:   2019-02-28 00:00:00 +0800
-categories: document
-tag: 教程
+title:  利用github page和jekyll搭建个人博客网站（一）
+date:   2019-02-27 00:00:00 +0800
+categories: 个人静态博客网站建设
+tag: github page
 ---
 
 * content
