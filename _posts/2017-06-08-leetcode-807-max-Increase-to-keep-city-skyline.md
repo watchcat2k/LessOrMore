@@ -3,7 +3,6 @@ layout: post
 title:  LeetCode练习题807. Max Increase to Keep City Skyline
 date:   2017-06-08 00:00:00 +0800
 categories: leetcode
-tag: C++
 ---
 
 * content

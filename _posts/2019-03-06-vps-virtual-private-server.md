@@ -3,7 +3,6 @@ layout: post
 title:  VPS虚拟专用服务器的搭建和配置
 date:   2019-03-06 00:00:00 +0800
 categories: 服务器
-tag: VPS
 ---
 
 * content

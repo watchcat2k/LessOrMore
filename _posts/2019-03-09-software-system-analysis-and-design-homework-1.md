@@ -3,7 +3,6 @@ layout: post
 title:  软件系统分析与设计课程作业（一）
 date:   2019-03-09 00:00:00 +0800
 categories: 软件系统分析与设计
-tag: computer theory
 ---
 
 * content

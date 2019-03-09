@@ -3,7 +3,6 @@ layout: post
 title:  利用github page和jekyll搭建个人博客网站（二）：使用域名
 date:   2019-03-02 00:00:00 +0800
 categories: 个人静态博客网站建设
-tag: github page
 ---
 
 * content
