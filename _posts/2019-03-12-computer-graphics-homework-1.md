@@ -13,16 +13,16 @@ categories: 计算机图形学
 
 
 
-# 前言
+# 前言  {#qianyan}
 OpenGL一般被认为是一个API(Application Programming Interface, 应用程序编程接口)，包含了一系列可以操作图形、图像的函数。由于OpenGL是一个图形API，并不是一个独立的平台，它需要一个编程语言来工作，在这里我们使用的是C++，而编辑器使用VS2017。关于OpenGL有个非常详细的官方教程：[https://learnopengl-cn.github.io/intro/](https://learnopengl-cn.github.io/intro/)，这里仅仅对OpenGL的学习作总结。
 
-# 绘制三角形
+# 绘制三角形  {#draw-triangle}
 只要按照教程的步骤一步步进行，绘制三角形的过程并不难，代码在下面会给出。效果图如下所示：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019031219395232.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
 
-# 颜色编辑窗口
-## ImGUI的配置
+# 颜色编辑窗口  {#color-edit-window}
+## ImGUI的配置  {#imgui-environment}
 前往ImGUI的github仓库[https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)，然后将库文件压缩包下载到本地，然后解压。把下图这些文件添加到刚才画三角形的VS2017的项目中。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312194523936.PNG)
@@ -38,7 +38,7 @@ OpenGL一般被认为是一个API(Application Programming Interface, 应用程�
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312195156566.PNG)
 
-## 修改imgui_impl_opengl3.h文件
+## 修改imgui_impl_opengl3.h文件  {#revise-file}
 按照前面OpenGL的官方教程，配置环境时，我们使用到了一个glad的库，而不是gl3w的库，所以在imgui_impl_opengl3.h文件中，把`IMGUI_IMPL_OPENGL_LOADER_GL3W`替换为`IMGUI_IMPL_OPENGL_LOADER_GLAD`
 
 ```
@@ -50,7 +50,7 @@ OpenGL一般被认为是一个API(Application Programming Interface, 应用程�
 #endif
 ```
 
-## 编写颜色编辑器代码
+## 编写颜色编辑器代码  {#color-window-code}
 这部分主要代码如下:
 
 ```
@@ -82,12 +82,12 @@ OpenGL一般被认为是一个API(Application Programming Interface, 应用程�
  ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 ```
 
-## 效果
+## 效果  {#result}
 如下图：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312200325397.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
 
-# 项目源代码
+# 项目源代码  {#all-code}
 main.cpp的代码如下：
 
 ```
