@@ -30,11 +30,12 @@ OpenGL一般被认为是一个API(Application Programming Interface, 应用程�
 然后进入ImGUI库的example文件夹，因为此次我们的项目是利用ImGUI给OpenGL所画的图形增加颜色编辑窗口，所以我们选择下图的文件，添加到项目中。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/201903121948298.PNG)
+
 还有以下两个文件：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312194838536.PNG)
 
-最终，原来的利用OpenGL画三角形的项目中，多个ImGUI的库文件，文件结构如下：
+最终，原来的利用OpenGL画三角形的项目中，多了ImGUI的库文件，文件结构如下：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312195156566.PNG)
 

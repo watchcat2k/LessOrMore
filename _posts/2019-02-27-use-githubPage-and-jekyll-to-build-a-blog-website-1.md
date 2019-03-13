@@ -84,7 +84,7 @@ categories: 个人静态博客网站建设
    
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228142242328.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
 
-2. **修改_config.yml文件**：注意，该主题的`README.md`文件里面有些一些注意事项，即我们要做一个修改，把`_config.yml`文件里的baseurl属性值修改为空，如下图所示：
+2. **修改_config.yml文件**：该主题的`README.md`文件里面有些一些注意事项，特别注意baseurl的配置，如果是`***.github.io`项目，不修改为空""的话，会导致JS,CSS等静态资源无法找到的错误。所以我们要做一个修改，把`_config.yml`文件里的baseurl属性值修改为空，如下图所示：
    
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228143403414.PNG)
 
