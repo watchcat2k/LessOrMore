@@ -19,20 +19,20 @@ VPS虚拟专用服务器与ECS云服务器有些不同。VPS是利用虚拟技�
 # VPS的获取  {#get-vps}
 本人的VPS服务器是在阿里云购买的[https://www.aliyun.com/product/swas?spm=5176.8142029.735711.9.79ca6d3ey2GI3I](https://www.aliyun.com/product/swas?spm=5176.8142029.735711.9.79ca6d3ey2GI3I)，根据自己的需要购买相应性能的VPS。购买时要选择服务器预装系统，我选择的是Ubuntu系统（服务器系统可以在购买后随时更换，所以不用担心）。如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190306145059460.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-06-1.png)
 
 购买完成后，去到个人账户控制台，点击左侧栏的“产品与服务”，在“弹性计算”这一项中找到“轻量应用服务器”，点击即可找到自己的VPS。如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190306145452361.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-06-2.png)
 
 # VPS的远程连接  {#vps-connect}
 在个人VPS控制台的左侧栏中，点击“远程连接”，点击“使用浏览器发起安全连接”，即可连接到VPS服务器。如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190306145853789.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-06-3.png)
 
 连接完成后，便弹出了命令行式的Ubuntu系统服务器。如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190306150105445.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-06-4.png)
 
 # VPS图形界面  {#graph-desktop}
 在进行了VPS的远程连接后，我们得到的是一个命令行式的操作系统服务器，这样子很不方便，我们希望得到的是一个图形界面的操作系统。图形界面的安装步骤如下：
@@ -40,7 +40,7 @@ VPS虚拟专用服务器与ECS云服务器有些不同。VPS是利用虚拟技�
 ## 设置VPS的用户密码  {#set-username-password}
 在进行“远程连接”那个控制台界面，可以设置VPS的账号密码，如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190306150606513.PNG)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-06-5.png)
 
 设置好密码后，使用我们的VPS服务器操作系统的用户名为`root`，密码为刚刚设置的密码。
 
@@ -71,9 +71,9 @@ sudo apt-get install xubuntu-desktop
 
 在个人电脑里打开"远程桌面连接"，如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190306152014841.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-06-6.png)
 
 输入个人VPS的公网IP地址，然后输入用户名，即“root”，密码为刚刚设置的密码，即可进入图形界面，如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190306152334578.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-06-7.png)
 

@@ -32,7 +32,7 @@ categories: 软件系统分析与设计
 
 软件生命周期可以用瀑布模型来描述，如下图：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190309154658196.PNG)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-09-1.png)
 
 软件生命周期可以分为6个部分：
 1. 软件计划：这个阶段主要的是任务是研究项目的可行性，需要的文档是可行性分析报告。

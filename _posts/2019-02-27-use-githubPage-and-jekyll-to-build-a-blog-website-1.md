@@ -28,11 +28,11 @@ categories: 个人静态博客网站建设
 
 在个人主页上，点击左侧栏的`New`按钮，如下图所示
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190227234840762.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-1.png)
 
 进入新建页面，将仓库的`repository name`设置为`username.github.io`，其中`username`替换为自己的用户名，如下图所示。之所以这样子设置，是因为github只向每个人提供了一个github page，而要使用这个github page，就将自己的某个仓库的`repository name`设置成`username.github.io`的形式，这样该仓库里的内容就可以变成成网页内容，进入`https://username.github.io`就可以查看。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190227235032571.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-2.png)
 
 ## 利用git工具克隆到本地							{#use-git-clone}
 
@@ -47,7 +47,7 @@ categories: 个人静态博客网站建设
    
 2. **安装gem**：安装了ruby之后，默认会安装gem，可以在命令行里测试是否已经安装成功，如下图。如果没有安装gem，可以前往此处[https://rubygems.org/pages/download](https://rubygems.org/pages/download)下载安装
 
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228134740728.PNG)
+    ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-3.png)
 
 3. **安装jekyll**：在命令行中输入`gem install jekyll`，jekyll安装完成后，还不能使用，还要安装一些组件。此时在命令行中输入`gem install bundler`，安装完成后，再在命令行中输入`bundle install`。这些步骤做完之后，jekyll就可以使用了。
 
@@ -57,10 +57,10 @@ categories: 个人静态博客网站建设
 
 1. 利用命令行进入一个空文件夹，然后执行`jekyll new my-first-website`，然后jekyll就生成一个`my-first-website`文件夹，里面的内容是这样的：
 
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228135845807.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+    ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-4.png)
 
 2. 在命令行中进入该文件夹，执行`jekyll server`，然后再浏览器中打开地址`http://127.0.0.1:4000/`，就可以看到网页的内容
-   ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228140158986.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+   ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-5.png)
 
 
 # 更换jekyll主题							{#change-jekyll-theme}
@@ -69,28 +69,28 @@ categories: 个人静态博客网站建设
 
 前面可以看到，Jekyll默认生成的网页主题单调，我们可以换一个更好的主题。前往[jekyll theme](http://jekyllthemes.org/)网站寻找自己喜欢的主题，我是用的主题是[Less-Or-More](http://jekyllthemes.org/themes/Less-Or-More/)。点击下图中的`dowload`按钮即可下载。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228140702304.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-6.png)
 
 ## 使用jekyll主题							{#use-jekyll-theme}
 
 将刚刚下载好的主题压缩包解压，然后在命令行中进入`LessOrMore-master`文件夹，执行`jekyll server`命令，然后再浏览器中打开地址`http://127.0.0.1:4000/LessOrMore/`，即可看到网站内容。那么，使用了这个主题之后，之前利用`jekyll new my-first-website`生成的文件夹及里面的内容就可以删掉不要了。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228141507436.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-7.png)
 
 
 # 将本地网站内容部署到github上							{#upload-local-content}
 
 1. **复制文件**：之前的步骤我们利用git工具将github上一个名为`username.github.io`的空仓库克隆到了本地文件夹，那么我们将`LessOrMore`主题文件夹里面的全部文件复制到那个本地文件夹里。（注意，是复制`LessOrMore`主题文件夹里面的全部文件，而不是`LessOrMore`主题文件夹），即以下文件
    
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228142242328.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+    ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-8.png)
 
 2. **修改_config.yml文件**：该主题的`README.md`文件里面有些一些注意事项，特别注意baseurl的配置，如果是`***.github.io`项目，不修改为空""的话，会导致JS,CSS等静态资源无法找到的错误。所以我们要做一个修改，把`_config.yml`文件里的baseurl属性值修改为空，如下图所示：
    
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228143403414.PNG)
+    ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-9.png)
 
 3. **提交到github**：利用git工具执行`git add -A`和`git commit -m "xxx"`命令，然后再执行`git push`命令，就能将这些文件提交到自己的github账号上，如下图
    
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190228142633287.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+    ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-10.png)
 
 4. **浏览器查看网站**：在浏览器中输入`https://username.github.io/`，把username修改为自己的github用户名，即可查看网站内容。
 
@@ -121,3 +121,18 @@ tag: 教程
 ```
 
 注意写博客时，要给每个带有`#`的标题打上标签`{#xxx}`，否则网页上的目录显示错误。
+
+# 博客图片引用  {#image-link}
+关于博客中图片的引用，我一开始是将图片上传到CSDN，然后在博客文章中使用CSDN提供的链接，后来发现这种方法不太行，图片经常加载不出来，可能是CSDN屏蔽了外部对它网站博客图片的引用。
+
+这里我使用github来存储博客要使用的图片，我直接在本项目的`styles/images`目录下，存储博客中使用的图片，然后两种方法引用图片：
+1. 一种是在博客内直接使用相对路径引用图片，比如`../styles/images/xxx.jpg`。
+2. 第二种是先把图片commit到github上，利用github生成的图片链接进行引用。这种方法方便博客文章能顺利在不同的平台发布，不会因为使用图片相对路径而找不到图片。
+   
+要获取图片的github链接，就在github上找到该图片，如下图：
+
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-11.png)
+
+然后点击`download`按钮，得到的网址便是可以引用的图片网址，如下图:
+
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-02/2019-02-27-12.png)

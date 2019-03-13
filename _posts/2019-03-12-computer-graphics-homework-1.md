@@ -19,25 +19,25 @@ OpenGL一般被认为是一个API(Application Programming Interface, 应用程�
 # 绘制三角形  {#draw-triangle}
 只要按照教程的步骤一步步进行，绘制三角形的过程并不难，代码在下面会给出。效果图如下所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019031219395232.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-12-1.png)
 
 # 颜色编辑窗口  {#color-edit-window}
 ## ImGUI的配置  {#imgui-environment}
 前往ImGUI的github仓库[https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)，然后将库文件压缩包下载到本地，然后解压。把下图这些文件添加到刚才画三角形的VS2017的项目中。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312194523936.PNG)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-12-2.png)
 
 然后进入ImGUI库的example文件夹，因为此次我们的项目是利用ImGUI给OpenGL所画的图形增加颜色编辑窗口，所以我们选择下图的文件，添加到项目中。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/201903121948298.PNG)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-12-3.png)
 
 还有以下两个文件：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312194838536.PNG)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-12-4.png)
 
 最终，原来的利用OpenGL画三角形的项目中，多了ImGUI的库文件，文件结构如下：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312195156566.PNG)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-12-5.png)
 
 ## 修改imgui_impl_opengl3.h文件  {#revise-file}
 按照前面OpenGL的官方教程，配置环境时，我们使用到了一个glad的库，而不是gl3w的库，所以在imgui_impl_opengl3.h文件中，把`IMGUI_IMPL_OPENGL_LOADER_GL3W`替换为`IMGUI_IMPL_OPENGL_LOADER_GLAD`
@@ -86,7 +86,7 @@ OpenGL一般被认为是一个API(Application Programming Interface, 应用程�
 ## 效果  {#result}
 如下图：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190312200325397.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MjcyMjgy,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-12-6.png)
 
 # 项目源代码  {#all-code}
 main.cpp的代码如下：
