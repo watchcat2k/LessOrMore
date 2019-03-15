@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LeetCode练习题53. Maximum Subarray
-date:   2018-06-08 00:00:00 +0800
+date:   2018-09-12 00:00:00 +0800
 categories: leetcode
 ---
 

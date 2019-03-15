@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LeetCode练习题400. Nth Digit
-date:   2018-06-08 00:00:00 +0800
+date:   2018-09-05 00:00:00 +0800
 categories: leetcode
 ---
 

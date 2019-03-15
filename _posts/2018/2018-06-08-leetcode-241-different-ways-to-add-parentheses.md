@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LeetCode练习题241. Different Ways to Add Parentheses
-date:   2018-06-08 00:00:00 +0800
+date:   2018-09-16 00:00:00 +0800
 categories: leetcode
 ---
 

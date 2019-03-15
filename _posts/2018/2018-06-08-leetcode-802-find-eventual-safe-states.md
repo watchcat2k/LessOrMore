@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LeetCode练习题802. Find Eventual Safe States
-date:   2018-06-08 00:00:00 +0800
+date:   2018-09-23 00:00:00 +0800
 categories: leetcode
 ---
 
@@ -26,7 +26,7 @@ Output: [2,4,5,6]
 Here is a diagram of the above graph.
 ```
 
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2018-06/2018-06-08-1.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2018-09/2018-09-23-1.png)
 
 **Note:**
 
