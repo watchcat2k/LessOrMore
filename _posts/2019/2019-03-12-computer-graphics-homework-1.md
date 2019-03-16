@@ -2,7 +2,7 @@
 layout: post
 title:  计算机图形学作业（一）：利用OpenGL绘制三角形，并利用ImGUI增加颜色编辑窗口
 date:   2019-03-12 00:00:00 +0800
-categories: 计算机图形学
+categories: CG-计算机图形学
 ---
 
 * content

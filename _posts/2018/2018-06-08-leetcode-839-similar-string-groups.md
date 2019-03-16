@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题839. Similar String Groups
 date:   2018-10-14 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

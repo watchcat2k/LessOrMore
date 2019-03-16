@@ -2,7 +2,7 @@
 layout: post
 title:  如何使用LessOrMore这个Jekyll模版
 date:   2016-08-27 00:00:00 +0800
-categories: 个人静态博客网站建设
+categories: Github-Page博客网站建设
 ---
 
 * content

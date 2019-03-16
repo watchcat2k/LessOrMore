@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题120. Triangle
 date:   2018-11-10 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

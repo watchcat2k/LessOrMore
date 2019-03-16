@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题435. Non-overlapping Intervals
 date:   2018-10-28 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

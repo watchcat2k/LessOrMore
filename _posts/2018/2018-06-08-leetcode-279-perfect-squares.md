@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题279. Perfect Squares
 date:   2018-12-09 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

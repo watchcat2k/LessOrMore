@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题207. Course Schedule
 date:   2018-09-29 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

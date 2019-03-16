@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 相关博客
+title: 推荐博客
 permalink: /reference/
 ---
 
@@ -8,24 +8,44 @@ permalink: /reference/
 {:toc}
 
 
-走向架构师之路
+Git教程
 =====================
-[走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
+廖雪峰的官方网站
 
-HTTP协议详解
-=====================
-[HTTP协议详解](http://www.jmarshall.com/easy/http/)
+[https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000){:target="_blank"}
 
-Axis 2.0的入门
+Python教程
 =====================
-[曹胜欢][http://blog.csdn.net/csh624366188/article/details/8362696](http://blog.csdn.net/csh624366188/article/details/8362696)
+廖雪峰的官方网站
 
-[一线码农]
-=====================
-算法入门和分布式缓存入门
-[http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html](http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html)
+[https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000){:target="_blank"}
 
-[雷霄骅]
+OpenGL教程
 =====================
-视音频编解码技术学习方法
-[http://blog.csdn.net/leixiaohua1020/article/details/18893769](http://blog.csdn.net/leixiaohua1020/article/details/18893769)
+OpenGL官方教程
+
+[https://learnopengl-cn.github.io/01%20Getting%20started/01%20OpenGL/](https://learnopengl-cn.github.io/01%20Getting%20started/01%20OpenGL/){:target="_blank"}
+
+Express教程
+=====================
+Express官方教程
+
+[http://www.expressjs.com.cn/starter/installing.html](http://www.expressjs.com.cn/starter/installing.html){:target="_blank"}
+
+Vue教程
+=====================
+Vue官方教程
+
+[https://cn.vuejs.org/v2/guide/](https://cn.vuejs.org/v2/guide/){:target="_blank"}
+
+runoob菜鸟教程
+=====================
+包含众多技术教程
+
+[http://www.runoob.com/](http://www.runoob.com/){:target="_blank"}
+
+Bootstrap UI编辑器
+=====================
+来自菜鸟教程的Bootstrap可视化UI编辑
+
+[http://www.runoob.com/bootstrap/bootstrap-ui-editor.html](http://www.runoob.com/bootstrap/bootstrap-ui-editor.html){:target="_blank"}

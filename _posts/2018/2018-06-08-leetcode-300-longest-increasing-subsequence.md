@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题300. Longest Increasing Subsequence
 date:   2018-11-03 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

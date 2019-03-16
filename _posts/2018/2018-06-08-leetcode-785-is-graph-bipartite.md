@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题785. Is Graph Bipartite?
 date:   2018-09-30 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

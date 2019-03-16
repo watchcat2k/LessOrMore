@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题368. Largest Divisible Subset
 date:   2018-11-17 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content

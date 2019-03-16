@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode练习题743. Network Delay Time
 date:   2018-10-07 00:00:00 +0800
-categories: leetcode
+categories: Leetcode
 ---
 
 * content
