@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题221. Maximal Square
+title:  LeetCode练习题221. Maximal Square——动态规划
 date:   2018-11-24 00:00:00 +0800
 categories: Leetcode
 ---

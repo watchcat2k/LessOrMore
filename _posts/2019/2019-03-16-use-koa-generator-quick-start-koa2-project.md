@@ -43,7 +43,7 @@ koa是一个基于Node.js平台的新一代Web应用开发框架，由Express �
         |-- layout.pug
 ```
 
-# 安装依赖项  (#install-dependency)
+# 安装依赖项  {#install-dependency}
 进入koa-server文件夹，在命令行输入并执行`npm install`。安装完成后，目录中多了一个node_modules文件夹和package-lock.json文件，node_modules文件夹的内容不用git工具进行commit，package-lock.json文件及其它文件都需要commit。
 
 **（以下问题若没有出现可直接忽略）**
@@ -64,6 +64,6 @@ koa是一个基于Node.js平台的新一代Web应用开发框架，由Express �
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-16-4.png)
 
-# 运行Web应用  (#run)
+# 运行Web应用  {#run}
 在koa-server文件夹下，按照安装koa框架时的提示，先执行`SET DEBUG=koa*`，然后再执行`npm start koa-server`或`node bin/www`，之后在浏览器中访问`http://localhost:3000/`，即可看到koa框架渲染的页面。
 

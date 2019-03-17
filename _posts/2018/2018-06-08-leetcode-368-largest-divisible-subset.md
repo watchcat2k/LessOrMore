@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题368. Largest Divisible Subset
+title:  LeetCode练习题368. Largest Divisible Subset——动态规划
 date:   2018-11-17 00:00:00 +0800
 categories: Leetcode
 ---

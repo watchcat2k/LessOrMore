@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题802. Find Eventual Safe States
+title:  LeetCode练习题802. Find Eventual Safe States——图搜索
 date:   2018-09-23 00:00:00 +0800
 categories: Leetcode
 ---

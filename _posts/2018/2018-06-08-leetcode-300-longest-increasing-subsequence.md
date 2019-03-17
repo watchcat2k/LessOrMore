@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题300. Longest Increasing Subsequence
+title:  LeetCode练习题300. Longest Increasing Subsequence——动态规划
 date:   2018-11-03 00:00:00 +0800
 categories: Leetcode
 ---

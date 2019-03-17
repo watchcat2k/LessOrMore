@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题452. Minimum Number of Arrows to Burst Balloons
+title:  LeetCode练习题452. Minimum Number of Arrows to Burst Balloons——贪心算法
 date:   2018-10-21 00:00:00 +0800
 categories: Leetcode
 ---

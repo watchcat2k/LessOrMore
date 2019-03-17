@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题839. Similar String Groups
+title:  LeetCode练习题839. Similar String Groups——图搜索
 date:   2018-10-14 00:00:00 +0800
 categories: Leetcode
 ---

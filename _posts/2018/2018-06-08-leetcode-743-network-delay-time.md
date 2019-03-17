@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题743. Network Delay Time
+title:  LeetCode练习题743. Network Delay Time——图搜索
 date:   2018-10-07 00:00:00 +0800
 categories: Leetcode
 ---

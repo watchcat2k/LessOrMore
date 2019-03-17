@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题435. Non-overlapping Intervals
+title:  LeetCode练习题435. Non-overlapping Intervals——贪心算法
 date:   2018-10-28 00:00:00 +0800
 categories: Leetcode
 ---

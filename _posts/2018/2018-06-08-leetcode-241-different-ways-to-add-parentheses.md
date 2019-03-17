@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题241. Different Ways to Add Parentheses
+title:  LeetCode练习题241. Different Ways to Add Parentheses——分治策略
 date:   2018-09-16 00:00:00 +0800
 categories: Leetcode
 ---

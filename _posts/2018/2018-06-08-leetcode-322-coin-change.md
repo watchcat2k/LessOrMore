@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题322. Coin Change
+title:  LeetCode练习题322. Coin Change——动态规划
 date:   2018-12-01 00:00:00 +0800
 categories: Leetcode
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题207. Course Schedule
+title:  LeetCode练习题207. Course Schedule——图搜索
 date:   2018-09-29 00:00:00 +0800
 categories: Leetcode
 ---

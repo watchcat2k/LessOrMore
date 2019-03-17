@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LeetCode练习题807. Max Increase to Keep City Skyline
+title:  LeetCode练习题807. Max Increase to Keep City Skyline——数组
 date:   2018-09-05 00:00:00 +0800
 categories: Leetcode
 ---

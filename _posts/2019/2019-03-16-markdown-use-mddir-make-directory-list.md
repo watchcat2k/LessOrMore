@@ -2,7 +2,7 @@
 layout: post
 title:  Markdown语法：利用mddir工具自动生成文件目录结构
 date:   2019-03-16 00:00:00 +0800
-categories: Koa-Web框架
+categories: Markdown
 ---
 
 * content
