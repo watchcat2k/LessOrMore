@@ -1,12 +1,13 @@
 ﻿---
 layout: post
-title:  Vue学习：Vue的安装及使用Vue Cli快速生成新项目的脚手架
+title:  Vue学习（一）：Vue的安装及使用Vue Cli快速生成新项目的脚手架
 date:   2019-03-17 00:00:00 +0800
 categories: Vue-前端框架
 ---
 
 * content
 {:toc}
+
 
 
 
@@ -30,6 +31,47 @@ Vue的安装方法有很多，我是用的方法是直接用`<script>`标签引�
 如果之前安装过旧版的Vue Cli，必须先执行命令`npm uninstall vue-cli -g`卸载。Vue Cli安装过程比较简单，只需要在命令行中输入并执行`cnpm install -g @vue/cli`即可。
 
 # Vue Cli的使用  {#use}
-首先在命令行中输入并执行`vue create 文件夹名`，比如我输入了`vue create hello-world`，那么就会创建一个hello-world文件夹，里面便是Vue Cli创建的新项目脚手架，命令行中进入hello-world文件夹，执行`npm run serve`命令，便可打开服务，在浏览器中查看`http://localhost:8080/`便可看到Vue Cli创建的页面。
+首先在命令行中输入并执行`vue create 文件夹名`，比如我输入了`vue create vue-client`，结果如下图：
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-17-1.png)
+
+在这里，不要选择默认选项，而是选择`Manually select features`，并且把`Router`和`vuex`选上，这两个插件能帮助我们快速地开发项目。结果如下图：
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-17-2.png)
+
+接下来，关于Router，默认是hash模式，这里我们使用history模式。如下图所示：
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-17-3.png)
+
+**注意，使用history模式需要对后端代码进行部分修改，才能使得前端页面不会出现404问题**，修改方法如下[https://router.vuejs.org/zh/guide/essentials/history-mode.html](https://router.vuejs.org/zh/guide/essentials/history-mode.html)
+
+至于后面的一些选项根据自己实际情况选择即可，最后一个项目就创建好了，项目结构如下：
+```
+|-- vue-client
+    |-- .browserslistrc
+    |-- .editorconfig
+    |-- .eslintrc.js
+    |-- .gitignore
+    |-- babel.config.js
+    |-- package-lock.json
+    |-- package.json
+    |-- postcss.config.js
+    |-- README.md
+    |-- public
+    |   |-- favicon.ico
+    |   |-- index.html
+    |-- src
+        |-- App.vue
+        |-- main.js
+        |-- router.js
+        |-- store.js
+        |-- assets
+        |   |-- logo.png
+        |-- components
+        |   |-- HelloWorld.vue
+        |-- views
+            |-- About.vue
+            |-- Home.vue
+
+```
+
+进入刚创建好的文件夹，执行`npm run serve`，然后再浏览器输入`http://localhost:8080/`即可看到页面内容。
 
 使用Vue Cli创建web前端页面后，就不需要另外引入vue.js库文件了，因为Vue Cli自动为我们引入了所需的库。
