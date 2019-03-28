@@ -20,7 +20,7 @@ categories: CG-计算机图形学
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-26-1.png)
 
-设一条直线为$\ y=mx+B$，那么上图图中的参数为：
+设一条直线为y=mx+B，那么上图图中的参数为：
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-26-8.png)
 
@@ -28,12 +28,12 @@ categories: CG-计算机图形学
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-26-2.png)
 
-在图中，红色点为当前的点，我们要计算出下一个点是取高位的黄色点，还是低位的黄色点，就要比较这两个点谁距离直线最近，结合之前的图，可得$\ d_{upper}$和$\ d_{lower}$的大小 。
+在图中，红色点为当前的点，我们要计算出下一个点是取高位的黄色点，还是低位的黄色点，就要比较这两个点谁距离直线最近，结合之前的图，可得：
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-26-7.png)
 
-如果$\ d_{lower}-d_{upper}>0$，则取上方的黄色点，否则取下方的黄色点。
-设定一个参数$\ p_i$，如下图：
+如果d_{lower}-d_{upper}>0，则取上方的黄色点，否则取下方的黄色点。
+设定一个参数p_i，如下图：
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-26-3.png)
 
@@ -64,7 +64,7 @@ float normalize(int input) {
 然后，对于给出的两个点，我们要绘制这两点的直线，首先计算出它们的斜率，若斜率不存在，则固定横坐标，循环纵坐标画出一个个点；若斜率在[0,1]范围，则以Bresenham算法绘制；否则，按以下方法绘制直线：
 1. 找出这两点谁的横坐标较小，然后把横坐标较小的点平移到原点，横坐标较大的点平移到对应位置。
 2. 对横坐标较大的点做一系列变换（关于直线y=x或y=0等对称），使得两点斜率在[0,1]之内
-3. 使用Bresenham算法绘制出直线，然后再把这条直线作步骤2相反的一系列变换即可。
+3. 使用Bresenham算法绘制出直线，然后把这条直线作步骤2相反的一系列变换，再加上步骤1的平移量即可。
 
 ## 结果  {#line-result}
  画出三角形并光栅化后，结果如下图所示：
@@ -81,7 +81,7 @@ float normalize(int input) {
  
 ## 算法伪代码  {#rasterization-algorithm}
  
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-26-6.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-26-12.png)
  
 ## 算法解释  {#rasterization-explaination}
  1. 根据三角形的三个点，计算三条边的一般式方程Ax+By+C=0，其中A=Y2-Y1，B=X1-X2，C=X2*Y1-X1*Y2。
