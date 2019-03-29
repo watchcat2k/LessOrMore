@@ -39,7 +39,7 @@ UML有九种图，分别为用例图、类图、对象图、序列图、协作�
 - 每个人的任务是1-2项
 - 至少包含一个团队活动任务
 
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-28-1.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-28-2.png)
 
 ## UML绘图工具练习  {#uml-pratice}
 - 提交贴图，必须使用 UMLet
