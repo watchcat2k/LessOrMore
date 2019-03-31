@@ -9,9 +9,15 @@ permalink: /projectList/
 
 博客网站系统
 =====================
-数据库课程期末项目，搭建一个博客网站系统，应用的技术为：node + express + mongodb + vue + vue-cli + vue-resource
+个人做的数据库课程期末项目，搭建一个博客网站系统，应用的技术为：node + express + mongodb + vue + vue-cli + vue-resource
 
 [http://120.77.146.251:3000/#/](http://120.77.146.251:3000/#/){:target="_blank"}
+
+XianYu闲余挣闲钱系统
+=====================
+我们团队做的一个挣闲钱系统。挣闲钱是大学生通过做任务挣钱的云平台，它属于以运营为中心的服务软件，也可以理解为面向大学生的专业“众包”系统。
+
+[https://xianyu-team.github.io/Dashboard/](https://xianyu-team.github.io/Dashboard/){:target="_blank"}
 
 Vue前端页面
 =====================
