@@ -16,7 +16,7 @@ categories: CG-计算机图形学
 
 # 题目	{#problem}
 
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-04-09-1.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-04/2019-04-09-1.png)
 
 # 引入GLM库  {#inport-lib}
 利用 openGL 进行 3D 绘图需要用到大量的数学矩阵运算，而 OpenGL 没有自带任何的矩阵和向量知识，需要我们自己定义数学类和函数，这相对比较麻烦。所以我们需要引入 GLM 库，GLM 能快速帮助我们实现各种数学矩阵运算。
@@ -39,7 +39,7 @@ model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 
 在 openGL 中，世界坐标系的坐标表示为(x, y, z)，分别对应下图位置：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-04-09-2.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-04/2019-04-09-2.png)
 
 注意，将摄像机向后移动，和将整个场景向前移动是一样的。这里我们将场景向 z 轴的负方向移动，以便于摄像机能观察到物体。
 ```
@@ -131,7 +131,7 @@ float vertices[] = {
 ## 深度测试  {#depth-test}
 完成之前的步骤，便可以画出一个立方体，如下图：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-04-09-3.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-04/2019-04-09-3.png)
 
 但可以看到，立方体的某些本应被遮挡住的面被绘制在了这个立方体其他面之上。之所以这样是因为 OpenGL 是一个三角形一个三角形地来绘制你的立方体的，所以即便之前那里有东西它也会覆盖之前的像素。因为这个原因，有些三角形会被绘制在其它三角形上面，虽然它们本不应该是被覆盖的。
 
@@ -143,7 +143,7 @@ glEnable(GL_DEPTH_TEST);
 ```
 最终的结果如下图：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-04-09-4.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-04/2019-04-09-4.png)
 
 # 立方体变换  {#cube-transform}
 ## 平移  {#translate}
@@ -170,7 +170,7 @@ model = glm::scale(model, glm::vec3(scaleDelta, scaleDelta, scaleDelta));
 # 渲染管线的理解  {#about}
 下图可以抽象地展示出图形渲染管线的各个步骤：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-04-09-5.png)
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-04/2019-04-09-5.png)
 
 首先，顶点数据是一系列顶点的集合。一个顶点是一个3D坐标的数据的集合。而顶点数据是用顶点属性表示的，它可以包含任何我们想用的数据。
 
