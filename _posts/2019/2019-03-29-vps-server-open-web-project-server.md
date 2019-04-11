@@ -13,7 +13,7 @@ categories: Server-服务器相关
 
 
 # 项目文件的下载  {#download}
-根据我之前的博客[https://mp.csdn.net/mdeditor/88234671#](https://mp.csdn.net/mdeditor/88234671#)，已经搭建好了自己的VPS服务器，然后通过远程桌面连接到服务器。我之前已经写好了一个博客网站系统的小项目并上传到github上[https://github.com/watchcat2k/my_blog_expresstest](https://github.com/watchcat2k/my_blog_expresstest)，这时，在服务器中，下载该项目到服务器硬盘目录中，如下图：
+根据我之前的博客[https://blog.csdn.net/qq_36272282/article/details/88234671](https://blog.csdn.net/qq_36272282/article/details/88234671)，已经搭建好了自己的VPS服务器，然后通过远程桌面连接到服务器。我之前已经写好了一个博客网站系统的小项目并上传到github上[https://github.com/watchcat2k/my_blog_expresstest](https://github.com/watchcat2k/my_blog_expresstest)，这时，在服务器中，下载该项目到服务器硬盘目录中，如下图：
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-03/2019-03-29-8.png)
 

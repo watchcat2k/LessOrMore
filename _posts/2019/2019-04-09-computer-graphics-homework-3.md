@@ -206,7 +206,6 @@ const int WINDOW_HEIGHT = 800;
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 
-//顶点着色器可以向片段着色器传数据
 const char* vertexShaderSource = "#version 330 core\n"
 	"layout (location = 0) in vec3 aPos;\n"
 	"layout (location = 1) in vec3 aColor;\n"
