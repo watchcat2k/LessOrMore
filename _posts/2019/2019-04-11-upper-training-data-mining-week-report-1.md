@@ -15,7 +15,7 @@ categories: AdvancedTraining-数据挖掘
 本次软件工程高级实训的课题是数据挖掘，选择的语言是python，python关于数据挖掘几个基础的包大概是：numpy, scipy, pandas, scikit-learn, statsmodels, matplotlib, xgboost, jupyter。所以，我们要在自己的电脑中安装配置好这些依赖项。
 
 # ubuntu下环境配置  {#ubuntu-setting}
-## python3.7的安装  {#python-3-7-install}
+## python3.7的安装  {#install-python37}
 我在自己的电脑中利用虚拟机安装了ubuntu 16.04系统，而在ubuntu中python是自带的，自带的版本有两个，分别是python2.7.12和python3.5.2，通过命令
 ```
 python -V		//默认版本
@@ -98,6 +98,24 @@ sudo pip3 install numpy scipy pandas scikit-learn statsmodels matplotlib xgboost
 安装成功后，结果如下：
 
 ![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-04/2019-04-11-5.png)
+
+# Window下环境配置  {#window-setting}
+前往[python官网](https://www.python.org/downloads/)下载适合window系统的3.7版本的python，然后打开安装程序进行安装，如下图：
+
+![在这里插入图片描述](https://raw.githubusercontent.com/watchcat2k/watchcat2k.github.io/master/styles/images/blogImage/2019-04/2019-04-11-1.png)
+
+注意，安装时勾选“自动添加Path到系统变量”，如上图红线所示。
+
+安装完成后，pip也会自动安装，而且是最新版本。而其它依赖包的安装与ubuntu下的安装方法类似，执行以下命令：
+```
+sudo pip3 install numpy scipy pandas scikit-learn statsmodels matplotlib jupyter
+```
+注意，**xgboost**依赖项在window里是不能用上述命令安装的，它的安装方法如下：
+- 前往[https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost](https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost)，因为我的python版本为3.7，所以下载文件xgboost‑0.82‑cp37‑cp37m‑win32.whl
+- 在终端中进入xgboost‑0.82‑cp37‑cp37m‑win32.whl所在的文件夹，然后执行以下命令即可
+```
+pip install xgboost‑0.82‑cp37‑cp37m‑win32.whl
+```
 
 # numpy
 NumPy是Python语言的一个扩展程序库，支持大量的维度数组与矩阵运算，此外也针对数组运算提供大量的数学函数库。numpy教程参考如下：[http://www.runoob.com/numpy/numpy-tutorial.html](http://www.runoob.com/numpy/numpy-tutorial.html)。
