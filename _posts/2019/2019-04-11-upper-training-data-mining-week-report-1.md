@@ -2,7 +2,7 @@
 layout: post
 title:  数据挖掘实训周报（一）
 date:   2019-04-11 00:00:00 +0800
-categories: AdvancedTraining-数据挖掘
+categories: DM-数据挖掘
 ---
 
 * content
