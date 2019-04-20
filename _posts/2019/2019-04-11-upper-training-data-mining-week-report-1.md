@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  数据挖掘实训周报（一）
+title:  数据挖掘实训周报（一）：windows和ubuntu16.04系统下python3.x和pip3的安装配置
 date:   2019-04-11 00:00:00 +0800
 categories: DM-数据挖掘
 ---
@@ -91,6 +91,33 @@ pip3 -V
 ```
 sudo pip3 install --upgrade pip
 ```
+
+pip3升级后，我们查看pip3是否成功升级：
+```
+pip3 -V
+```
+发现终端报错，如下图：
+
+![](https://gitee.com/watchcat2k/pictures_base/raw/master/2019-04/2019-04-20-3.png)
+
+我们用vim做以下修改（按'i'进入插入模式编辑，按"Esc"推出插入模式，然后按":wq"保存退出vim）：
+```
+sudo vim /usr/bin/pip3
+```
+然后把里面的代码改成以下：
+```
+from pip import __main__
+if __name__ == '__main__':
+    sys.exit(__main__._main())
+```
+如下图所示：
+
+![](https://gitee.com/watchcat2k/pictures_base/raw/master/2019-04/2019-04-20-4.png)
+
+之后再检查pip3版本就没问题了。
+
+之后便是利用pip3进行各种packag
+
 之后便是利用pip3进行各种package的安装，只需一条命令，就可以把前言提到的各种包进行安装。
 ```
 sudo pip3 install numpy scipy pandas scikit-learn statsmodels matplotlib xgboost jupyter
