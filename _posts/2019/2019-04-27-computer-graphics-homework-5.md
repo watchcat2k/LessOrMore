@@ -260,6 +260,7 @@ if (enable_translate) {
 ```
 
 # 代码    {#code}
+写代码时，为了方便地使用shader，我使用了[官方的shader类库](https://learnopengl.com/code_viewer_gh.php?code=includes/learnopengl/shader.h)，引入该文件后，便可以方便地创建和使用shader。
 ```
 #include <iostream>
 #include <glad/glad.h>
