@@ -1,3 +1,8 @@
+# 注意!!!
+
+**该主题是我一开始使用的主题，现已弃坑，更换为 Jekyll-Next-Theme 主题，仓库地址为 [https://github.com/watchcat2k/watchcat2k.github.io](https://github.com/watchcat2k/watchcat2k.github.io)**
+
+
 # LessOrMore
 
 
